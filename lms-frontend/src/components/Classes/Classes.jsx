@@ -2,20 +2,14 @@ import { Box, TextField, Button, Stack } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
 import Header from "../Header";
-// import InputBase from "@mui/material/InputBase";
-
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import ClearOutlinedIcon from "@mui/icons-material/ClearOutlined";
 import "react-toastify/dist/ReactToastify.css";
 import { IconButton } from "@mui/material";
-// import SearchIcon from "@mui/icons-material/Search";
 import { confirmAlert } from "react-confirm-alert";
 import "react-confirm-alert/src/react-confirm-alert.css";
-
-
-
 import {
   Delete as DeleteIcon,
   Edit as EditIcon,
