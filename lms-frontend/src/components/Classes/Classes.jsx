@@ -35,7 +35,7 @@ const Classes = () => {
     setIsOpen(true);
   };
 
-  const apiURL = "https://lms-backend-production-0616.up.railway.app/api/classes";
+  const apiURL = "https://lms-backend-codi-production.up.railway.app/api/classes";
 
   const fetchallData = async () => {
     try {
@@ -87,7 +87,7 @@ const Classes = () => {
           onClick: async () => {
             try {
               setIsLoading(true);
-              await axios.delete(`https://lms-backend-production-0616.up.railway.app/api/classes/${id}`, {
+              await axios.delete(`https://lms-backend-codi-production.up.railway.app/api/classes/${id}`, {
                 headers: {
                   Authorization: `Bearer ${token}`,
                 },

@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function Logout() {
 
  
-  fetch('https://lms-backend-production-0616.up.railway.app/api/logout', {
+  fetch('https://lms-backend-codi-production.up.railway.app/api/logout', {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${window.localStorage.getItem('token')}`,

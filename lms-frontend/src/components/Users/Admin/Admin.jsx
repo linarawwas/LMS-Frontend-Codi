@@ -44,7 +44,7 @@ const Admins = () => {
     setIsOpen(true);
   };
 
-  const apiURL = "https://lms-backend-production-0616.up.railway.app/api/users";
+  const apiURL = "https://lms-backend-codi-production.up.railway.app/api/users";
 
   const fetchallData = async () => {
     try {
@@ -73,7 +73,7 @@ const Admins = () => {
           onClick: async () => {
             try {
               setIsLoading(true);
-            await axios.delete(`https://lms-backend-production-0616.up.railway.app/api/users/${id}`, {
+            await axios.delete(`https://lms-backend-codi-production.up.railway.app/api/users/${id}`, {
               headers: {
                 Authorization: `Bearer ${token}`,
               },
@@ -188,7 +188,7 @@ const Admins = () => {
           </Box>
         ) : params.row.image ? (
           <img
-            src={`https://lms-backend-production-0616.up.railway.app/images/${params.row.image}`}
+            src={`https://lms-backend-codi-production.up.railway.app/images/${params.row.image}`}
             alt={params.row.image}
             width={50}
             height={50}

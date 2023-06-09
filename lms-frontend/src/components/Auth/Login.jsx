@@ -28,7 +28,7 @@ export default function Login() {
       return;
     }
     console.log(email, password);
-    fetch("https://lms-backend-production-0616.up.railway.app/api/login", {
+    fetch("https://lms-backend-codi-production.up.railway.app/api/login", {
       method: "POST",
       crossDomain: true,
       headers: {

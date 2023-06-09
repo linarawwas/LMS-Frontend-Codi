@@ -30,9 +30,9 @@ const Home = () => {
 
 
 
-  const apiUserURL = "https://lms-backend-production-0616.up.railway.app/api/users";
-  const apiClassesURL = "https://lms-backend-production-0616.up.railway.app/api/classes";
-  const apiSectionsURL = "https://lms-backend-production-0616.up.railway.app/api/sections";
+  const apiUserURL = "https://lms-backend-codi-production.up.railway.app/api/users";
+  const apiClassesURL = "https://lms-backend-codi-production.up.railway.app/api/classes";
+  const apiSectionsURL = "https://lms-backend-codi-production.up.railway.app/api/sections";
 
   //USERS
   const fetchallUserData = async () => {
